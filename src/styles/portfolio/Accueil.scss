@@ -1,4 +1,67 @@
-body{
-  background-color: $primary;
-  color: black !important; 
+.Accueil{
+  height: 90vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+.contenu-accueil{
+  height: 30vw;
+  display: flex;
+  flex-flow: column;
+  // margin-top: 10vh;
+}
+  h1{
+    margin: 0 10px 0 0;
+    font-family: 'Staatliches', cursive;
+    font-weight: normal;
+    font-size: 5em;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    white-space: nowrap;
+
+    &::after{
+      color: #BCFDFF;
+      padding: 80px 0 0 10px;
+    } 
+
+    span{
+      font-size: 4em;
+    }
+  }
+  
+  .nom{
+    display: flex;
+    align-self: center;
+    margin-top: -20px;
+
+    h1:first-of-type{
+      margin-left: 10px;
+   }
+    h1:nth-of-type(2){
+      color: #BCFDFF;
+   }
+  }
+  
+  .rectangle-rond{
+    background-color: #FC6478;
+    border-radius: 100px;
+    width: 300px;
+    height: 100px;
+    display: block;
+    transform: rotate(45deg);
+
+    &:nth-of-type(2){
+      top: 42vh;
+      left: -10vw;
+      width: 400px;
+      position: absolute;
+    }
+  }
+
+  h2{
+    align-self: center;
+    font-weight: normal;
+    font-size: 2em;
+  }
 }

@@ -1,0 +1,14 @@
+.liste-projets{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+  width: 100vw;
+  img{
+    width: 50vw;
+
+  }
+}
