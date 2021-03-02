@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Entete/>
+    <section class="contenuPrincipal">
+      <Accueil msg="Welcome to Your Vue.js App"/>
+    </section>
+    
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Accueil from './components/Accueil.vue'
+import Entete from './components/Entete.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Accueil,
+    Entete
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&family=Roboto&family=Staatliches&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  background-color: #F6F6F6;
+  font-family: 'Bree Serif', serif;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+}
+.contenuPrincipal{
+   background-color: #FFA4B0;
 }
 </style>
