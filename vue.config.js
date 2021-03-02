@@ -5,5 +5,8 @@ module.exports = {
         additionalData: `@import "@/styles/_variables.scss";`
       }
     }
-  }
+  },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/portfolio/'
+    : '/'
 };
