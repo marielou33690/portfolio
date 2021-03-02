@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "preghdeploy": "npm run build",
+    "ghdeploy": "gh-pages -d build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -44,5 +46,6 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "homepage": "https://marielou33690.github.io/portfolio/"
 }
