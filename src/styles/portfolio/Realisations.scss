@@ -1,0 +1,37 @@
+.realisations{
+background-color: $couleur_blanc;
+color: $couleur_gris;
+display: flex;
+justify-content: center;
+
+  .contenu-realisations{
+    display: flex;
+    width: 70vw;
+    justify-content: center;
+    flex-flow: column;
+
+    h1{
+      font-family: $typo_titre;
+      font-weight: normal;
+      font-size: 6em;
+      margin: 0;
+      margin-top: 8vh;
+    }
+
+    .nav-realisations{
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-flow: row;
+      font-size: 2em;
+
+      li{
+        padding-right: 40px;
+        &:hover{
+          cursor: pointer;
+          color: $couleur_accents;
+        }
+      }
+    }
+  }
+}

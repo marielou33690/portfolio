@@ -1,14 +1,15 @@
 <template>
-  <section class="Realisation">
-    <h1>Mes réalisations</h1>
-    <ul>
-      <li>toutes</li>
-      <li>web</li>
-      <li>design</li>
-      <li>autres</li>
-    </ul>
-    <!-- <img src="../assets/images/Denis_Marie-Lou_photoFinissante-blanche.jpg" alt=""> -->
-    <ListeProjets/>
+  <section class="realisations">
+    <div class="contenu-realisations">
+      <h1>Mes réalisations</h1>
+      <ul class="nav-realisations">
+        <li class="actif">//toutes</li>
+        <li>//web</li>
+        <li>//design</li>
+        <li>//autres</li>
+      </ul>
+      <ListeProjets/>
+      </div>
   </section>
 </template>
 

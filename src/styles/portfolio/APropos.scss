@@ -1,0 +1,17 @@
+.apropos{
+  display: flex;
+  flex-flow: column;
+
+  h1{
+    font-family: $typo_titre;
+    font-weight: normal;
+    font-size: 6em;
+    margin-bottom: 0;
+  }
+
+  div{
+    display: flex;
+    flex-flow: row;
+
+  }
+}

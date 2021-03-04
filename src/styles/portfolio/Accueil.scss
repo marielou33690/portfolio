@@ -3,6 +3,7 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
+  background-color: $couleur_fond_rose;
 
 .contenu-accueil{
   height: 30vw;
@@ -12,7 +13,7 @@
 }
   h1{
     margin: 0 10px 0 0;
-    font-family: 'Staatliches', cursive;
+    font-family: $typo_titre;
     font-weight: normal;
     font-size: 5em;
     display: flex;
@@ -21,7 +22,7 @@
     white-space: nowrap;
 
     &::after{
-      color: #BCFDFF;
+      color: $couleur_ml;
       padding: 80px 0 0 10px;
     } 
 
@@ -44,7 +45,7 @@
   }
   
   .rectangle-rond{
-    background-color: #FC6478;
+    background-color: $couleur_accents;
     border-radius: 100px;
     width: 300px;
     height: 100px;
