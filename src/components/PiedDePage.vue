@@ -17,7 +17,10 @@ qui aime le JavaScript tout particulièrement.</p>
 </template>
 
 <script>
+// Styles Pied de page
 import "../styles/portfolio/PiedDePage.scss";
+import "../assets/polices/Hudzaifah.otf";
+
 export default {
   name: 'PiedDePage'
 }

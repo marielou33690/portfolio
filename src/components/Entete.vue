@@ -1,26 +1,22 @@
 <template>
   <header class="entete">
-    <div id="initiale">
-      mld
-    </div>
+    <div id="initiale"><a href="#accueil">mld</a></div>
     <ul class="nav" v-on:scroll="defilement">
-      <li>portfolio</li>
-      <li>à propos</li>
-      <li>contact</li>
-      <li id="lang">
-        <span>en</span> 
+      <li><a href="#realisations">portfolio</a></li>
+      <li><a href="#apropos">à propos</a></li>
+      <!-- <li id="lang">
+        <span>en</span>
         <span>|</span>
         <span>fr</span>
-      </li>
+      </li> -->
     </ul>
-
   </header>
 </template>
 
 <script>
 import "../styles/portfolio/Entete.scss";
 export default {
-  name: 'Entete'
+  name: "Entete",
   // ,
   // methods: {
   //   defilement(){
@@ -32,5 +28,5 @@ export default {
   //   }
   //   }
   // }
-}
+};
 </script>

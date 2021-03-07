@@ -1,17 +1,69 @@
-.apropos{
+#apropos{
   display: flex;
   flex-flow: column;
+  justify-content: center;
 
-  h1{
-    font-family: $typo_titre;
-    font-weight: normal;
-    font-size: 6em;
-    margin-bottom: 0;
-  }
-
-  div{
+  .contenu-apropos{
     display: flex;
-    flex-flow: row;
+    width: 70vw;
+    align-self: center;
+    flex-flow: column;
 
+    h1{
+      font-family: $typo_titre;
+      font-weight: normal;
+      font-size: 6em;
+      margin-bottom: 0;
+      margin-top: 10vh;
+    }
+
+    .qualites{
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      margin-top: 6vh;
+      font-size: 2em;
+
+      div{
+        text-align: center;
+
+        img{
+          width: 100px;
+        }
+        p{
+          margin: 0;
+        }
+      }
+    }
+
+    .description{
+      display: flex;
+      font-family: $typo_para;
+      margin: 6vh 0 8vh 0;
+      font-size: 1.5em;
+
+      img{
+        width: 275px;
+        height: 367px;
+        border-radius: 20px;
+      }
+
+      .informations{
+        display: flex;
+        flex-flow: column;
+
+        p{
+          padding-left: 2vh;
+
+          &:not(:first-of-type){
+            font-family: $typo_titre_sec;
+          }
+  
+          &:nth-child(2){
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
   }
 }

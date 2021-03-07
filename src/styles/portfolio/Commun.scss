@@ -5,12 +5,20 @@ body{
   background-color:$couleur_blanc;
   font-family: $typo_titre_sec;
   font-weight: normal;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
 #app {
   color: white;
 }
+
 .contenuPrincipal{
    background-color: $couleur_fond_rose;
+}
+
+a{
+text-decoration: none;
+color: white;
 }
 
 .actif{

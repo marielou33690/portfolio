@@ -3,13 +3,13 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  height: 5vh;
+  height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
   font-size: 1.5em;
-  padding: 3vh;
+  padding: 5vh;
 
   #initiale{
     font-family: $typo_mld;
@@ -33,13 +33,20 @@
     &:first-child{
       padding: 0;
     }
+    a{
+      &:hover{ 
+        border-bottom:3px solid $couleur_accents;
+        // transition: .5s ease;
+      }
 
-    &:hover:not(:last-of-type){
-      color: $couleur_accents;
+      &:hover li{
+        margin-bottom: 2px;
+      }
     }
 
     span:hover:not(:nth-of-type(2)){
-      color: $couleur_accents;
+      border-bottom:3px solid $couleur_accents;
+      // transition: .5s;
     }
   }
 
