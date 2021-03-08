@@ -1,15 +1,26 @@
 <template>
   <header class="entete">
     <div id="initiale"><a href="#accueil">mld</a></div>
-    <ul class="nav" v-on:scroll="defilement">
+    <div id="menu-burger">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul>
+                <li class="lien-nav"><a href="#realisations">portfolio</a></li>
+                <li class="lien-nav"><a href="#apropos">à propos</a></li>
+            </ul>
+    </div>
+    <!-- <ul class="nav">
       <li><a href="#realisations">portfolio</a></li>
       <li><a href="#apropos">à propos</a></li>
-      <!-- <li id="lang">
+       <li id="lang">
         <span>en</span>
         <span>|</span>
         <span>fr</span>
-      </li> -->
-    </ul>
+      </li>
+    </ul> -->
   </header>
 </template>
 

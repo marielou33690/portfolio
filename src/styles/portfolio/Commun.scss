@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&family=Roboto&family=Staatliches&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0;
   background-color:$couleur_blanc;

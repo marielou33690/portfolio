@@ -1,21 +1,53 @@
 <template>
- <ul class="liste-projets">
-   <li v-for="projet in projets"  v-bind:projet="projet" :key="projet.titre">
-     <div class="superposition">
-        <h2>{{projet.titre}}</h2>
-        <p>{{projet.techno}}</p>
-       </div>
-     <img :src="projet.src" :alt="projet.alt">
-   </li>
- </ul>
+<div>
+  <ul class="liste-projets">
+    <li v-for="projet in projets"  v-bind:projet="projet" :key="projet.titre" @click="lightboxActif=true">
+      <div class="superposition">
+          <h2>{{projet.titre}}</h2>
+          <p>{{projet.techno}}</p>
+        </div>
+      <img :src="projet.src" :alt="projet.alt">
+    </li>
+  </ul>
+
+  <!-- Temporaire pour faire css du lightbox -->
+  <div id="lightbox" v-if="lightboxActif==true">
+      <div id="contenu-lightbox">
+        <div class="image">
+          <button></button>
+          <img :src="require('../assets/images/lightbox_construction.jpg')" alt="">
+          <button>></button>
+        </div>
+        <div class="carte">
+          <h1>Nom du projet</h1>
+          <h2>HTML, SCSS, JS,  PHP</h2>
+          <p>desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc</p>
+          <div class="boutons">
+            <button class="btn-site">Aller au site</button>
+            <button class="btn-fermer" @click="lightboxActif=false">X</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 import "../styles/portfolio/ListeProjets.scss";
+// Temporaire pour faire css du lightbox
+import "../styles/portfolio/Lightbox.scss";
 export default {
   name: 'ListeProjets',
   data() {
     return{
+      // Temporaire pour faire css du lightbox
+      lightboxActif: false,
+      isAddClass: false,
+      methods: {
+            addClass: function() {
+                this.isAddClass = true;
+        }
+    },
       projets: [
         {
           titre: "Refonte TIM",

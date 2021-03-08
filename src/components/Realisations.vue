@@ -8,7 +8,7 @@
         <li>//design</li>
         <li>//autres</li>
       </ul>
-      <ListeProjets/>
+      <ListeProjets />
       </div>
   </section>
 </template>
