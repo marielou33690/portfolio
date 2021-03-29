@@ -1,0 +1,71 @@
+{
+  "test": "salut",
+  "projets": [
+  {
+    "id": 0,
+    "titre": "Refonte TIM",
+    "alt": "Projet de refonte du site tim",
+    "techno": "HTML, SCSS, JS,  PHP",
+    "desc": "J'ai réalisé ce site web en collaboration avec des collègues de classe dans le cadre de mon cours de projet web. Le devis était de faire la refonte du site de notre programme, la technique d'intégration multimédia au Collège de Maisonneuve. Nous avons réalisé ce projet en utlisant HTML, SCSS, JavaScript, PHP ainsi qu'une base de données relationelle.",
+    "url": "https://github.com/marielou33690/refonteTIM"
+  },
+  {
+    "id": 1,
+    "titre": "Quiz sur la bouffe",
+    "alt": "Quiz en javascript",
+    "techno": "HTML, CSS, JS",
+    "desc": "Ce quiz est le premier projet de programmation que j'ai fait avec du JavaScript. C'est ce projet qui m'a fait découvrir la programmation et qui m'a donné la piqûre. Ce quiz génère dynamiquement les questions avec un fichier Javascript qui contient les questions et réponses et un autre qui génère les éléments HTML.",
+    "url": "https://quizbouffe.netlify.app/"
+  }
+  ,
+  {
+    "id": 2,
+    "titre": "Refonte Roman Emporium",
+    "alt": "Quiz en javascript",
+    "techno": "HTML, CSS, JS",
+    "desc": "Pour ce projet, j'ai fait la refonte d'un site web de mon choix. J'ai choisi un salon de manucure puisque c'est un de mes passe-temps favoris. J'ai voulu donné un look plus moderne au site web, surtout au niveau de la typographie. Cette refonte a été réalisé en automne 2019.",
+    "url": "https://refonte-romanemporium.netlify.app/"
+  }
+  ,
+  {
+    "id": 3,
+    "titre": "Jeu Évasion",
+    "alt": "Quiz en javascript",
+    "techno": "Phaser, HTML, CSS, JS",
+    "desc": "Ce jeu a été programmé avec Phaser 3 et est une reproduction du jeu 'rush hour'. Au moment auquel j'ai codé ce jeu, Phaser 3 était relativement nouveau et la physique que j'avais besoin pour réaliser ce jeu n'étais pas disponible donc j'ai dû la programmer à la main.",
+    "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fmarielou33690.github.io%2FjeuEvasion%2F%3Ffbclid%3DIwAR0Ke07ktEkgNejsVIRcZCujKC1hT_w941PqxRk57lI8p9Bu2i85wSd4YhY&h=AT2c9TgKrnilGqvvNd_wJnEMV9unFXBPMy1z5P0gwtJmpXg6n9Pp9v_SqCpU3ggiknrQAyak2n5jLcMXhy52c7bGcdYLMLU8TJYJwKQYfH_2sX-mMybXwd9FKBPFwyDo9Nf22g"
+  }
+  ,
+  {
+    "id": 4,
+    "titre": "Chaîne YouTube",
+    "alt": "Quiz en javascript",
+    "techno": "Premiere, Photoshop",
+    "desc": "J'ai une chaîne Youtube et un compte Instagram où je publie du contenu de Nail Art, une de mes plus grandes passions. Je me suis créée un logo avec Illustrator ainis qu'une bannière pour ma chaîne Youtube. J'aime beaucoup faire des vidéos YouTube que je monte dans Premiere Pro. J'adore créer des 'thumbnails' dans Photoshop qui sont personnalisés à chaque vidéos. ",
+    "url": "https://www.youtube.com/channel/UCgBsRMfu_7sNFDFmR-mTv9w"
+  }
+  ,
+  {
+    "id": 5,
+    "titre": "Vaisseau 3D",
+    "alt": "Quiz en javascript",
+    "techno": "Maya, Photoshop",
+    "desc": "J'ai réalisé plusieurs projets dans mon cours de 3D. Le pendentif et le vaisseau spatial ont été réalisé pendant la même session autour de l'univers d'un peuple que l'on a créé de toute pièce. J'ai aussi réalisé un personnage mytique, Slök."
+  }
+  ,
+  { 
+    "id": 6,
+    "titre": "Matte Painting",
+    "alt": "Quiz en javascript",
+    "techno": "Photoshop",
+    "desc": "Ces deux montages ont été réalisé dans photoshop lors de ma première session en tecnhiques d'intégration multimédia (2018). J'ai beaucoup appris lors de ce cours et je continue d'utiliser les techniques apprises, mais maintenant j'ai une meilleure compréhension de comment construire une composition graphique. "
+  }
+  ,
+  {
+    "id": 7,
+    "titre": "Affiche Ocean Cleanup",
+    "alt": "Quiz en javascript",
+    "techno": "Photoshop",
+    "desc": "J'ai réalisé cette affiche pour un concept de jeu que nous avions créé dans le cadre de notre cours de design. Le jeu était basé sur la réduction de la pollution dans l'océan. Le but du jeu était de sensibiliser la communauté du Collège Maisonneuve aux enjeux en développement durable, en environnement et aux changements climatiques afin de diminuer les impacts sur notre planète."
+  }
+]}

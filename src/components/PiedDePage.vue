@@ -6,7 +6,6 @@
     <div id="footer-contact">
       <h2>Contact</h2>
       <p>marielou33690@gmail.com</p>
-      <p>438-404-6385</p>
     </div>
     <div id="footer-apropos">
       <h2>À propos</h2>

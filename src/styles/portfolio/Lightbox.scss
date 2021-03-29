@@ -1,7 +1,8 @@
 #lightbox{
   height: 100vh;
   width: 100vw;
-  background-color:#0000008a;
+  background-color:#000000b5;
+  color: $couleur_gris;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,11 +61,13 @@
       padding: 2vh;
       background-color: $couleur_blanc;
       
-      h1{
+      h2{
+        font-family: $typo_titre;
         margin: 0;
         font-size: 2.5em;
+        font-weight: normal;
       }
-      h2{
+      h3{
         color: #7D7D7D;
         margin: 0;
         margin-top: -5px;
@@ -79,6 +82,9 @@
       .boutons{
         display: flex;
         justify-content: space-between;
+        :only-child{
+          margin-left: 95%;
+        }
 
         button{
           border: none;
