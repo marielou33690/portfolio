@@ -9,6 +9,8 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "@animxyz/core": "^0.5.0",
+    "@animxyz/vue": "^0.5.0",
     "core-js": "^3.6.5",
     "css-loader": "^3.6.0",
     "node-sass": "^5.0.0",

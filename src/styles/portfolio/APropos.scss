@@ -70,7 +70,34 @@
 
 /* Début de styles mobiles */
 @media (max-width:520px) {
+  #apropos{
+    .contenu-apropos{
+      h2{
+        font-size: 4em;
+      }
 
+      .qualites{
+        font-size: 1em;
+
+        div{
+          img{
+          width: 60px;
+          }
+        }
+      }
+
+      .description{
+        flex-flow: column;
+        justify-content: center;
+
+        .informations{
+          p{
+            font-size: 0.6em;
+          }
+        }
+      }
+    }
+  }
 }
 
 /* Début de styles tablette */

@@ -11,6 +11,10 @@
   font-size: 1.5em;
   padding: 5vh;
 
+  .nav-actif{
+    color: $couleur_accents;
+  }
+
   #initiale{
     font-family: $typo_mld;
     font-size: 2.5em;
@@ -32,7 +36,7 @@
 
   li{
     cursor: pointer;
-    padding-left: 30px;
+    margin-left: 30px;
 
     &:first-child{
       padding: 0;
@@ -164,7 +168,8 @@
           text-align: right;
           font-size: .8em;
           border-radius: 20px;
-          background-color: $couleur_accents;
+          background-color: $couleur_fond_rose;
+          box-shadow: -6px 6px 0px 9px $couleur_accents;
           list-style-type: none;
           /* pour Safari */
           -webkit-font-smoothing: antialiased;

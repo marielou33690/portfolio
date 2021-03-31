@@ -5,6 +5,9 @@ footer{
   justify-content: space-between;
   padding: 3vw 5vw;
   
+  .infosIcones{
+    display: none;
+  }
 
   div{
     width: 20vw;
@@ -21,6 +24,11 @@ footer{
     p{
       font-family: $typo_para;
       margin: 0;
+    }
+    
+    a{
+      font-family: $typo_para;
+      color: $couleur_gris;
     }
   }
 
@@ -39,5 +47,38 @@ footer{
 
   #footer-apropos{
     text-align: center;
+  }
+}
+
+/* Début de styles mobiles */
+@media (max-width:520px) {
+  footer{
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+
+    h2{
+      display: none;
+    }
+
+    .infosLongues{
+      display: none;
+    }
+
+     .infosIcones{
+       display: flex;
+       justify-content: center;
+       flex-flow: row;
+     }
+    
+     #signature, .infosIcones, #footer-apropos{
+      width: 80vw;
+      padding-top: 3vh;
+    }
+
+    #footer-apropos{
+      padding-bottom: 8vh;
+    }
   }
 }

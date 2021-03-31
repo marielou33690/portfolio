@@ -9,13 +9,14 @@
       <img :src="require(`../assets/images/projets/prj${projet.id}-cover.jpg`)" :alt="projet.alt">
     </li>
   </ul>
-  <Lightbox v-if="lightboxActif==true" v-model="lightboxActif" :infosProjet="{idCourant: idCourant, listeProjets: listeProjets}"/>
+  <transition name="fondu">
+    <Lightbox v-if="lightboxActif==true" :infosProjet="{idCourant: idCourant, listeProjets: listeProjets, fermerLightbox:fermerLightbox}"/>
+  </transition>
   </div>
 </template>
 
 <script>
 import "../styles/portfolio/ListeProjets.scss";
-// Temporaire pour faire css du lightbox
 import Lightbox from './Lightbox.vue'
 import "../styles/portfolio/Lightbox.scss";
 export default {
@@ -30,6 +31,11 @@ export default {
       idCourant: ''
     }
   },
+  methods: {
+    fermerLightbox(){
+      this.lightboxActif = false;
+    }
+  },
   watch: {
     lightboxActif: function() {
       console.log(document.documentElement.style.overflow);
@@ -38,8 +44,7 @@ export default {
         document.documentElement.style.overflow = 'hidden'
         return
       }
-      
-      document.documentElement.style.overflowY = 'scroll'
+      document.documentElement.style.overflow = null
     }
   }
 }

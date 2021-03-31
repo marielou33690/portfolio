@@ -49,6 +49,11 @@
         &:last-child{
           right: 25vw;
         }
+
+        &:hover{
+          color: $couleur_fond_rose;
+          background-color: white;
+        }
       }
 
       img{
@@ -90,8 +95,6 @@
           border: none;
           font-family: $typo_para;
           font-weight: bold;
-  
-          
         }
         .btn-site{
           color: $couleur_blanc;
@@ -107,6 +110,40 @@
           font-size: 1.5em;
           background-color: transparent;
           color: $couleur_fond_rose;
+        }
+      }
+    }
+  }
+}
+
+/* Début de styles mobiles */
+@media (max-width:520px) {
+  #lightbox{
+    #contenu-lightbox{
+      width: 90vw;
+
+      .image{
+        button{
+          width: 40px;
+          height: 40px;
+          font-weight: normal;
+
+          &:last-child{
+            right: 5vw;
+          }
+        }
+      }
+
+      .carte{
+        h2{
+          font-size: 2em;
+          padding-bottom: 0;
+        }
+        h3{
+          font-size: .8em;
+        }
+        p{
+          font-size: .8em;
         }
       }
     }

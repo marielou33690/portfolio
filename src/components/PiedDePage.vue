@@ -5,7 +5,17 @@
     </div>
     <div id="footer-contact">
       <h2>Contact</h2>
-      <p>marielou33690@gmail.com</p>
+      <div class="infosLongues">
+        <p>marielou33690@gmail.com</p>
+        <a target= "_blank" href="https://www.linkedin.com/in/marie-lou-denis-61bbb71ba/">Mon LinkedIn</a>
+      </div>
+      <div class="infosIcones">
+        <img src="../assets/images/icones/linkedIn.png" alt="">
+        <div>
+          <a target= "_blank" href="https://www.linkedin.com/in/marie-lou-denis-61bbb71ba/"></a>
+          <img src="../assets/images/icones/email.png" alt="">
+        </div>
+      </div>
     </div>
     <div id="footer-apropos">
       <h2>À propos</h2>

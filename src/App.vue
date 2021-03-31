@@ -5,11 +5,9 @@
     <section class="contenuPrincipal">
       <Accueil/>
       <Realisations />
-      <!-- <Lightbox /> -->
       <APropos/>
     </section>
     <PiedDePage/>
-    
   </div>
 </template>
 
@@ -29,34 +27,13 @@ import "./styles/portfolio/Commun.scss";
 
 export default {
   name: 'App',
-  // props:{
-  //   lightboxActif: {
-  //     type: Boolean,
-  //     default: true
-  //   }
-  // },
   components: {
     Chargement,
     Accueil,
     Entete,
     Realisations,
-    // Lightbox,
     APropos,
     PiedDePage
   }
-  // ,
-  // data() {
-  //   return{
-  //     images: [
-  //       require("./assets/images/projets/prj01-cover.jpg"),
-  //       require("./assets/images/projets/prj02-cover.jpg"),
-  //       require("./assets/images/projets/prj03-cover.jpg"),
-  //       require("./assets/images/projets/prj05-cover.jpg"),
-  //       require("./assets/images/projets/prj06-cover.jpg"),
-  //       require("./assets/images/projets/prj07-cover.jpg"),
-  //       require("./assets/images/projets/prj08-cover.jpg")
-  //     ]
-  //   }
-  // }
 }
 </script>
